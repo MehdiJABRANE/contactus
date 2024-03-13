@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'LexendDeca';
+    src: url('../fonts/LexendDeca-Bold.ttf');
+}
+@font-face {
+    font-family: 'Marope-bold';
+    src: url('../fonts/manrope-bold.otf');
+}
+@font-face {
+font-family: 'Marope-regular';
+src: url('../fonts/manrope-regular.otf');
+}
+
+body{
+    padding-top: 50px;
+    background-color: #201300;
+}
+.div-contact-us-container{
+    display: flex;
+    width: 1110px;
+    height: 550px;
+    background-color: transparent;
+    border: 2px solid #efd2a7;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.left-child{
+    flex: 50%;
+    background-color: transparent;
+}
+.left-child-children{
+    display: inline-block;
+    margin-left: 87px;
+    margin-top: 5px;
+}
+.left-child-children h2{
+    font-family: 'LexendDeca';
+    color: #EFD2A7;
+    font-size: 52px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.input-container{
+    margin-top: 17px;
+}
+.input-container label{
+    display: block;
+    font-family: 'Marope-regular';
+    font-weight: 550;
+    font-size: 14px;
+    color: white;
+}
+.input-container textarea{
+    width: 101%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #5f492e;
+    font-family: 'Marope-regular';
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.input-container textarea::placeholder{
+    color: #5f492e;
+}
+.input-container input{
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    font-family: 'Marope-regular';
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+    border-bottom: 2px solid #5f492e;
+}
+.input-container input::placeholder{
+    color: #5f492e;
+}
+.button-container{
+    margin-top: 20px;
+}
+.soumettre-btn{
+    background-color: #EFD2A7;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 25px;
+    font-family: 'Marope-regular';
+    color: #201300;
+    font-size: 16px;
+}
+
+
+.right-child{
+    flex: 50%;
+    background-image: url(../image/contactus.svg);
+    background-position:right;
+    background-size: cover;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'LexendDeca';
+    src: url('../fonts/LexendDeca-Bold.ttf');
+}
+@font-face {
+    font-family: 'Marope-bold';
+    src: url('../fonts/manrope-bold.otf');
+}
+@font-face {
+    font-family: 'Marope-semibold';
+    src: url('../fonts/manrope-semibold.otf');
+}
+@font-face {
+font-family: 'Marope-regular';
+src: url('../fonts/manrope-regular.otf');
+}
+
+body{
+    padding-top: 50px;
+    background-color: #201300;
+}
+.contact-us-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-us-header-container h1{
+    font-family: 'LexendDeca';
+    color: #ECC697;
+    font-size: 52px !important;
+}
+.informations-container span{
+    font-family: 'Marope-semibold';
+    font-size: 18px;
+    color: #ECC697;
+    margin-right: 20px;
+}
+.informations-container span i{
+    margin-right: 10px;
+    font-size: bold;
+    color: #ECC697;
+    font-size: 25px;
+}
